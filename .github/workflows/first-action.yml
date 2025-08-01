@@ -7,4 +7,6 @@ jobs:
       - name: Greetings
         run: echo "Greetings! Hello to the first workflow"
       - name: Farewell
-        run: echo "bye-bye from first workflow"
+        run: |
+            echo "bye-bye from first workflow"
+            echo "see you again next time"
